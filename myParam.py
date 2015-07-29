@@ -1,0 +1,25 @@
+
+AIO_LOG_LEVEL = {
+	'CRITICAL':50,
+	'FATAL':50,
+	'ERROR':40,
+	'WARNING':30,
+	'WARN':30,
+	'INFO':20,
+	'DEBUG':10
+}
+
+AIO_LOG_BASEPATH = '/home/saurabh/public_repo/AIO_ROBOTICS/logs'
+AIO_CLIENT_LOGDIR = 'clientLog'
+AIO_CLIENTLOG_BASENAME = 'aioClient'
+AIO_CLIENT_LOGGER = 'aioClientLog'
+CLIENT_LOG_SIZE = 500
+CLIENT_LOGBKP_COUNT = 10
+DEBUG_LEVEL = {'INFO':          AIO_LOG_LEVEL['INFO'],
+			   'DEBUG':         AIO_LOG_LEVEL['DEBUG'],
+			   'WARNING':       AIO_LOG_LEVEL['WARN'],
+			   'WARNING':       AIO_LOG_LEVEL['WARNING'],
+			   'ERROR':         AIO_LOG_LEVEL['ERROR'],
+			   'FATAL':         AIO_LOG_LEVEL['FATAL'],
+			   'CRITICAL':      AIO_LOG_LEVEL['CRITICAL']
+				}
